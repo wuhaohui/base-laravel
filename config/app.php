@@ -178,6 +178,7 @@ return [
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
 //        SwooleTW\Http\LaravelServiceProvider::class,
+        Sentry\Laravel\ServiceProvider::class,
     ],
 
     /*
@@ -232,6 +233,7 @@ return [
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Sentry' => Sentry\Laravel\Facade::class,
     ],
 
 ];
